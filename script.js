@@ -1,3 +1,5 @@
+let arr=[-1,2,1,-4];
+let target=1;
 function threeSum(arr, target) {
 // write your code here
 	let ans=1;
@@ -15,8 +17,9 @@ function threeSum(arr, target) {
 						}
 				}
 		}
-	return ans;
+	console.log(ans); 
   
 }
+threeSum(arr,target);
 
 module.exports = threeSum;
